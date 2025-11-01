@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali | Visual Designer & Digital Creator</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas id="heroCanvas"></canvas>
+        <div class="hero-content">
+            <h1>Ali</h1>
+            <p class="tagline">Visual Designer & Digital Creator</p>
+            <a href="#projects" class="btn-primary">Explore My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section animate-on-scroll">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>I’m Ali, a designer who transforms ideas into visuals that communicate meaning and style. I specialize in
+                logos, posters, and social media content, blending creativity with clarity to craft work that engages
+                and inspires. Every design tells a story — and I bring those stories to life.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Selected Projects</h2>
+        <div class="projects-grid">
+
+            <!-- STEP Project -->
+            <div class="project-card animate-on-scroll">
+                <img src="Images/STEP REFINED.png" alt="STEP Logo">
+                <div class="project-overlay">
+                    <h3>STEP | Peer Learning Project</h3>
+                    <p>I designed the logo, website visuals, and social media posts for STEP, a project introducing peer
+                        learning into everyday society. Focused on clarity, modern aesthetics, and approachable visuals
+                        to make learning engaging.</p>
+                </div>
+            </div>
+
+            <div class="project-card animate-on-scroll">
+                <img src="Images/poster.png" alt="STEP Poster">
+                <div class="project-overlay">
+                    <h3>STEP Poster Design</h3>
+                    <p>Created a promotional poster for STEP, combining clean typography, bold colors, and eye-catching
+                        layout to communicate their mission and attract engagement.</p>
+                </div>
+            </div>
+
+            <!-- Coffee / BeanBox.co Logo -->
+            <div class="project-card animate-on-scroll">
+                <img src="Images/Coffee.png" alt="BeanBox.co Logo">
+                <div class="project-overlay">
+                    <h3>BeanBox.co | Coffee Branding</h3>
+                    <p>Developed a logo and branding visuals for BeanBox.co, focusing on minimalism, warmth, and
+                        professional design that works across digital and print media.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section animate-on-scroll">
+        <h2>Let’s Work Together</h2>
+        <p>Have a project in mind? Send me a message and let's create something amazing.</p>
+        <form action="https://formspree.io/f/mvgwjkeb" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>© 2025 Ali | Designed with passion and pixels.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
